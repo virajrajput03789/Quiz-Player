@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="640" fill="url(#g1)" />
+  <text x="80" y="330" fill="#ffffff" font-family="Inter, sans-serif" font-size="72" font-weight="700">
+    General Knowledge
+  </text>
+</svg>

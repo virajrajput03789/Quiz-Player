@@ -1,0 +1,113 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_1",
+      "title": "General Knowledge",
+      "description": "A quick mixed quiz covering geography, history, and science.",
+      "thumbnail": "/images/quiz_1.svg",
+      "category": "General Knowledge",
+      "difficulty": "Easy",
+      "timePerQuestion": 15,
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "id": "quiz_1_q1",
+          "question": "Capital of India?",
+          "options": ["Delhi", "Mumbai", "Pune", "Jaipur"],
+          "correctAnswer": "Delhi",
+          "points": 10,
+          "explanation": "Delhi is the capital city of India."
+        },
+        {
+          "id": "quiz_1_q2",
+          "question": "Which planet is known as the Red Planet?",
+          "options": ["Mars", "Venus", "Jupiter", "Mercury"],
+          "correctAnswer": "Mars",
+          "points": 10,
+          "explanation": "Mars appears red due to iron oxide on its surface."
+        },
+        {
+          "id": "quiz_1_q3",
+          "question": "Who wrote the play Hamlet?",
+          "options": ["William Shakespeare", "Charles Dickens", "George Orwell", "Jane Austen"],
+          "correctAnswer": "William Shakespeare",
+          "points": 10,
+          "explanation": "Hamlet is one of Shakespeare's most famous tragedies."
+        },
+        {
+          "id": "quiz_1_q4",
+          "question": "What gas do plants absorb from the atmosphere?",
+          "options": ["Carbon dioxide", "Oxygen", "Nitrogen", "Helium"],
+          "correctAnswer": "Carbon dioxide",
+          "points": 10,
+          "explanation": "Plants absorb carbon dioxide during photosynthesis."
+        },
+        {
+          "id": "quiz_1_q5",
+          "question": "Which ocean is the largest?",
+          "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean", "Arctic Ocean"],
+          "correctAnswer": "Pacific Ocean",
+          "points": 10,
+          "explanation": "The Pacific Ocean covers more area than any other ocean."
+        }
+      ]
+    },
+    {
+      "id": "quiz_2",
+      "title": "Web Development Basics",
+      "description": "Test your frontend fundamentals in this timed challenge.",
+      "thumbnail": "/images/quiz_2.svg",
+      "category": "Technology",
+      "difficulty": "Medium",
+      "timePerQuestion": 20,
+      "totalQuestions": 5,
+      "questions": [
+        {
+          "id": "quiz_2_q1",
+          "question": "What does HTML stand for?",
+          "options": [
+            "HyperText Markup Language",
+            "HighText Markdown Language",
+            "HyperText Machine Language",
+            "Home Tool Markup Language"
+          ],
+          "correctAnswer": "HyperText Markup Language",
+          "points": 10,
+          "explanation": "HTML stands for HyperText Markup Language."
+        },
+        {
+          "id": "quiz_2_q2",
+          "question": "Which CSS property controls text size?",
+          "options": ["font-size", "text-style", "font-weight", "line-height"],
+          "correctAnswer": "font-size",
+          "points": 10,
+          "explanation": "The font-size property changes the size of text."
+        },
+        {
+          "id": "quiz_2_q3",
+          "question": "Which hook is used for side effects in React?",
+          "options": ["useEffect", "useMemo", "useRef", "useState"],
+          "correctAnswer": "useEffect",
+          "points": 10,
+          "explanation": "useEffect handles side effects like fetching and subscriptions."
+        },
+        {
+          "id": "quiz_2_q4",
+          "question": "TypeScript is a superset of which language?",
+          "options": ["JavaScript", "Java", "Python", "C#"],
+          "correctAnswer": "JavaScript",
+          "points": 10,
+          "explanation": "TypeScript adds static types on top of JavaScript."
+        },
+        {
+          "id": "quiz_2_q5",
+          "question": "Which command starts a Vite development server?",
+          "options": ["npm run dev", "npm start", "vite serve", "npm run start"],
+          "correctAnswer": "npm run dev",
+          "points": 10,
+          "explanation": "Vite projects typically run in dev mode via npm run dev."
+        }
+      ]
+    }
+  ]
+}

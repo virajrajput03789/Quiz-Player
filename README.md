@@ -45,7 +45,7 @@ React 18 + Vite + TypeScript, Tailwind CSS, React Router, Framer Motion, Firebas
    ```
 
 ## AI Tools Used
-Cursor and Blackbox AI were used as the primary coding agents to scaffold and implement the app, based on a detailed spec prompt. Claude was used throughout as a planning, debugging, and code-review partner — I fed it error logs, screenshots, and Firebase console output at each step and used it to write precise fix instructions back to the coding agent, rather than trusting the coding agent's own bug diagnoses at face value.
+Copilot CLI AI were used as the primary coding agents to scaffold and implement the app, based on a detailed spec prompt. Claude was used throughout as a planning, debugging, and code-review partner — I fed it error logs, screenshots, and Firebase console output at each step and used it to write precise fix instructions back to the coding agent, rather than trusting the coding agent's own bug diagnoses at face value.
 
 ## Where AI Helped
 - Scaffolding the initial project structure, TypeScript types, and component breakdown from a detailed spec prompt.

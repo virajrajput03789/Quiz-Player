@@ -23,9 +23,9 @@ React 18 + Vite + TypeScript, Tailwind CSS, React Router, Framer Motion, Firebas
    ```
 
 2. **Environment variables**
-   Copy `.env.example` to `.env.local` and fill in your Firebase project's config values:
+   Copy `.env.example` to `.env` and fill in your Firebase project's config values:
    ```bash
-   cp .env.example .env.local
+   cp .env.example .env
    ```
    Required keys: `VITE_FIREBASE_API_KEY`, `VITE_FIREBASE_AUTH_DOMAIN`, `VITE_FIREBASE_PROJECT_ID`, `VITE_FIREBASE_STORAGE_BUCKET`, `VITE_FIREBASE_MESSAGING_SENDER_ID`, `VITE_FIREBASE_APP_ID`.
 
